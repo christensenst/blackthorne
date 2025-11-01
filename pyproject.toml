@@ -22,16 +22,15 @@ dependencies = [
     "pydantic",
     "pydantic-settings",
     "python-multipart",
-
     # Data processing
     "pyspark",
     "kafka-python",
     "duckdb>=1.4",
     "pandas>=2.3",
-
     # Utilities
     "python-dotenv",
     "requests",
+    "neo4j",
 ]
 
 [project.optional-dependencies]
